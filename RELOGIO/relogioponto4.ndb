@@ -1,0 +1,54 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 42
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:101	")
+#	IGdW	!	:102	"(
+$	IGdW	!	:103	"'
+%	IGdW	!	:20	"4
+&	IGdW	!	:21	"5
+'	IGdW	!	:22	"7
+(	IGdW	!	:23	"6
+)	IGdW	!	:24	"9
+*	IGdW	!	:25	"8
++	IGdW	!	:3	"2
+,	IGdW	!	:30	":
+-	IGdW	!	:4	"3
+.	IGdW	!	:5	"1
+/	IGdW	!	:83	".
+0	IGdW	!	:84	"-
+1	IGdW	!	:85	"0
+2	IGdW	!	:86	"/
+3	IGdW	!	:89	",
+4	IGdW	!	:92	"+
+5	IGdW	!	:93	"*
+6	IGdW	!	:94	"&
+7	Ky&|	!	1	G	DH1	"%
+8	Ky&|	!	1	G	DH2	p
+9	Ky&|	!	1	G	DM1	z
+:	Ky&|	!	1	G	DM2	y
+;	Ky&|	!	1	G	DM3	x
+<	Ky&|	!	1	G	DS1	s
+=	Ky&|	!	1	G	DS2	r
+>	Ky&|	!	1	G	DS3	q
+?	Ky&|	!	1	G	H1	"!
+@	Ky&|	!	1	G	H2	""
+A	Ky&|	!	1	G	H3	"#
+B	Ky&|	!	1	G	H4	"$
+C	Ky&|	!	1	G	M1	~
+D	Ky&|	!	1	G	M2	}
+E	Ky&|	!	1	G	M3	|
+F	Ky&|	!	1	G	M4	{
+G	IGdq	!	PONTO4	o
+H	Ky&|	!	1	G	S1	w
+I	Ky&|	!	1	G	S2	v
+J	Ky&|	!	1	G	S3	u
+K	Ky&|	!	1	G	S4	t

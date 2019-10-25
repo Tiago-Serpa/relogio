@@ -1,0 +1,242 @@
+NDB006
+The number of symbol table entries is: 11
+The length of the symbol table is: 245
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|modulo3:31|
+;	|modulo6:29|
+H	|modulo6:30|
+U	|modulo10:26|
+c	|modulo10:27|
+q	|modulo10:28|
+"!	|cemafaro:34|relogioponto08-00-00:5|
+"F	|cemafaro:34|relogioponto18-00-00:11|
+"l	|cemafaro:34|relogioponto14-00-00:13|
+#4	|cemafaro:34|relogioponto12-00-00:14|
+
+The number of name info structs is : 220
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdq	!	08-00-00	"'
+#	IGdq	!	12-00-00	"(
+$	IGdq	!	14-00-00	"*
+%	IGdq	!	18-00-00	")
+&	IGdW	!	:20	"u
+'	IGdW	!	:21	"v
+(	IGdW	!	:22	"w
+)	IGdW	!	:23	"x
+*	IGdW	!	:24	"t
++	IGdW	!	:25	"s
+,	Ky&|	!	21	.	/	0	1	2	3	4	5	6	7	8	9	:	;	<	=	?	@	A	B	C	CLEAR	"-
+-	Ky&|	!	1	?	CLOCK	"+
+.	V$IO	!	12	.	/	6	7	8	9	C	D	"	#	$	%	5	1	2	3	4	5	DH1	p
+/	V$IO	!	12	.	/	6	7	8	9	C	D	"	#	$	%	5	1	2	3	4	5	DH2	o
+0	V$IO	!	7	0	1	2	"	#	$	%	3	12	13	14	DM1	w
+1	V$IO	!	7	0	1	2	"	#	$	%	3	12	13	14	DM2	v
+2	V$IO	!	8	0	1	2	6	"	#	$	%	3	12	13	14	DM3	u
+3	V$IO	!	7	3	4	5	"	#	$	%	3	23	24	25	DS1	"$
+4	V$IO	!	7	3	4	5	"	#	$	%	3	23	24	25	DS2	"#
+5	V$IO	!	8	3	4	5	:	"	#	$	%	3	23	24	25	DS3	""
+6	V$IO	!	12	.	/	6	7	8	9	C	D	"	#	$	%	6	6	7	8	9	10	11	H1	t
+7	V$IO	!	12	.	/	6	7	8	9	C	D	"	#	$	%	6	6	7	8	9	10	11	H2	s
+8	V$IO	!	12	.	/	6	7	8	9	C	D	"	#	$	%	6	6	7	8	9	10	11	H3	r
+9	V$IO	!	12	.	/	6	7	8	9	C	D	"	#	$	%	6	6	7	8	9	10	11	H4	q
+:	V$IO	!	8	:	;	<	=	"	#	$	%	4	15	16	17	18	M1	{
+;	V$IO	!	8	:	;	<	=	"	#	$	%	4	15	16	17	18	M2	z
+<	V$IO	!	8	:	;	<	=	"	#	$	%	4	15	16	17	18	M3	y
+=	V$IO	!	9	0	:	;	<	=	"	#	$	%	4	15	16	17	18	M4	x
+>	Ky&|	!	20	.	/	0	1	2	3	4	5	6	7	8	9	:	;	<	=	?	@	A	B	PRESET	",
+?	V$IO	!	8	?	@	A	B	"	#	$	%	4	19	20	21	22	S1	"!
+@	V$IO	!	8	?	@	A	B	"	#	$	%	4	19	20	21	22	S2	~
+A	V$IO	!	8	?	@	A	B	"	#	$	%	4	19	20	21	22	S3	}
+B	V$IO	!	9	3	?	@	A	B	"	#	$	%	4	19	20	21	22	S4	|
+C	IGdq	!	ZERADOR	"&
+D	IGdq	!	ZERAR	"%
+E	INu}	"!	U	08-00-00	&2
+F	IGdW	"!	:1	&!
+G	IGdW	"!	:10	&(
+H	IGdW	"!	:13	%~
+I	IGdW	"!	:14	%}
+J	IGdW	"!	:17	%z
+K	IGdW	"!	:18	%y
+L	IGdW	"!	:19	%x
+M	IGdW	"!	:20	&,
+N	IGdW	"!	:21	&-
+O	IGdW	"!	:22	&.
+P	IGdW	"!	:23	&/
+Q	IGdW	"!	:24	&1
+R	IGdW	"!	:25	&0
+S	IGdW	"!	:26	&+
+T	IGdW	"!	:28	&)
+U	IVOQ	"!	E	:30	&2
+V	IGdW	"!	:4	&*
+W	IGdW	"!	:5	&"
+X	IGdW	"!	:6	%w
+Y	IGdW	"!	:77	%{
+Z	IGdW	"!	:78	%|
+[	IGdW	"!	:79	&&
+\	IGdW	"!	:8	&'
+]	IGdW	"!	:80	&#
+^	IGdW	"!	:81	&%
+_	IGdW	"!	:82	&$
+`	INu}	#4	p	12-00-00	'm
+a	IGdW	#4	:1	'^
+b	IGdW	#4	:10	'c
+c	IGdW	#4	:13	']
+d	IGdW	#4	:14	'\
+e	IGdW	#4	:17	'Y
+f	IGdW	#4	:18	'X
+g	IGdW	#4	:19	'W
+h	IGdW	#4	:20	'g
+i	IGdW	#4	:21	'h
+j	IGdW	#4	:22	'i
+k	IGdW	#4	:23	'j
+l	IGdW	#4	:24	'l
+m	IGdW	#4	:25	'k
+n	IGdW	#4	:26	'f
+o	IGdW	#4	:28	'd
+p	IVOQ	#4	`	:30	'm
+q	IGdW	#4	:4	'e
+r	IGdW	#4	:5	'_
+s	IGdW	#4	:6	'U
+t	IGdW	#4	:77	'Z
+u	IGdW	#4	:78	'[
+v	IGdW	#4	:8	'b
+w	IGdW	#4	:81	'a
+x	IGdW	#4	:82	'`
+y	IGdW	#4	:83	'V
+z	INu}	"l	"+	14-00-00	':
+{	IGdW	"l	:10	'0
+|	IGdW	"l	:13	'+
+}	IGdW	"l	:14	'*
+~	IGdW	"l	:17	''
+"!	IGdW	"l	:18	'&
+""	IGdW	"l	:19	'%
+"#	IGdW	"l	:20	'4
+"$	IGdW	"l	:21	'5
+"%	IGdW	"l	:22	'6
+"&	IGdW	"l	:23	'7
+"'	IGdW	"l	:24	'9
+"(	IGdW	"l	:25	'8
+")	IGdW	"l	:26	'3
+"*	IGdW	"l	:28	'1
+"+	IVOQ	"l	z	:30	':
+",	IGdW	"l	:4	'2
+"-	IGdW	"l	:5	',
+".	IGdW	"l	:6	'"
+"/	IGdW	"l	:77	'(
+"0	IGdW	"l	:78	')
+"1	IGdW	"l	:8	'/
+"2	IGdW	"l	:81	'.
+"3	IGdW	"l	:82	'-
+"4	IGdW	"l	:83	'$
+"5	IGdW	"l	:84	'#
+"6	INu}	"F	"E	18-00-00	&e
+"7	IGdW	"F	:10	&[
+"8	IGdW	"F	:13	&V
+"9	IGdW	"F	:14	&U
+":	IGdW	"F	:17	&R
+";	IGdW	"F	:18	&Q
+"<	IGdW	"F	:19	&P
+"=	IGdW	"F	:20	&_
+">	IGdW	"F	:21	&`
+"?	IGdW	"F	:22	&a
+"@	IGdW	"F	:23	&b
+"A	IGdW	"F	:24	&d
+"B	IGdW	"F	:25	&c
+"C	IGdW	"F	:26	&^
+"D	IGdW	"F	:28	&\
+"E	IVOQ	"F	"6	:30	&e
+"F	IGdW	"F	:4	&]
+"G	IGdW	"F	:5	&W
+"H	IGdW	"F	:6	&M
+"I	IGdW	"F	:77	&S
+"J	IGdW	"F	:78	&T
+"K	IGdW	"F	:8	&Z
+"L	IGdW	"F	:81	&Y
+"M	IGdW	"F	:82	&X
+"N	IGdW	"F	:84	&O
+"O	IGdW	"F	:85	&N
+"P	IVOA	U	"\	:1	#g
+"Q	IGdW	U	:10	#l
+"R	IGdW	U	:11	#q
+"S	IGdW	U	:12	#r
+"T	IVOA	U	"]	:2	#h
+"U	IVOA	U	"^	:3	#i
+"V	IVOA	U	"_	:4	#j
+"W	IGdW	U	:5	#m
+"X	IGdW	U	:6	#n
+"Y	IGdW	U	:7	#o
+"Z	IGdW	U	:8	#p
+"[	IGdW	U	:9	#k
+"\	INum	U	"P	S1	#g
+"]	INum	U	"T	S2	#h
+"^	INum	U	"U	S3	#i
+"_	INum	U	"V	S4	#j
+"`	IVOA	c	"l	:1	$"
+"a	IGdW	c	:10	$'
+"b	IGdW	c	:11	$,
+"c	IGdW	c	:12	$-
+"d	IVOA	c	"m	:2	$#
+"e	IVOA	c	"n	:3	$$
+"f	IVOA	c	"o	:4	$%
+"g	IGdW	c	:5	$(
+"h	IGdW	c	:6	$)
+"i	IGdW	c	:7	$*
+"j	IGdW	c	:8	$+
+"k	IGdW	c	:9	$&
+"l	INum	c	"`	S1	$"
+"m	INum	c	"d	S2	$#
+"n	INum	c	"e	S3	$$
+"o	INum	c	"f	S4	$%
+"p	IVOA	q	"|	:1	$:
+"q	IGdW	q	:10	$?
+"r	IGdW	q	:11	$D
+"s	IGdW	q	:12	$E
+"t	IVOA	q	"}	:2	$;
+"u	IVOA	q	"~	:3	$<
+"v	IVOA	q	#!	:4	$=
+"w	IGdW	q	:5	$@
+"x	IGdW	q	:6	$A
+"y	IGdW	q	:7	$B
+"z	IGdW	q	:8	$C
+"{	IGdW	q	:9	$>
+"|	INum	q	"p	S1	$:
+"}	INum	q	"t	S2	$;
+"~	INum	q	"u	S3	$<
+#!	INum	q	"v	S4	$=
+#"	IVOA	.	#(	:1	#+
+##	IGdW	.	:12	#/
+#$	IGdW	.	:19	#0
+#%	IVOA	.	#)	:2	#,
+#&	IGdW	.	:5	#-
+#'	IGdW	.	:6	#.
+#(	INum	.	#"	S1	#+
+#)	INum	.	#%	S2	#,
+#*	IVOA	;	#3	:1	#=
+#+	IGdW	;	:12	#D
+#,	IGdW	;	:18	#E
+#-	IVOA	;	#4	:2	#>
+#.	IVOA	;	#5	:3	#?
+#/	IGdW	;	:5	#A
+#0	IGdW	;	:6	#B
+#1	IGdW	;	:7	#C
+#2	IGdW	;	:9	#@
+#3	INum	;	#*	S1	#=
+#4	INum	;	#-	S2	#>
+#5	INum	;	#.	s3	#?
+#6	IVOA	H	#?	:1	#R
+#7	IGdW	H	:12	#Y
+#8	IGdW	H	:18	#Z
+#9	IVOA	H	#@	:2	#S
+#:	IVOA	H	#A	:3	#T
+#;	IGdW	H	:5	#V
+#<	IGdW	H	:6	#W
+#=	IGdW	H	:7	#X
+#>	IGdW	H	:9	#U
+#?	INum	H	#6	S1	#R
+#@	INum	H	#9	S2	#S
+#A	INum	H	#:	s3	#T

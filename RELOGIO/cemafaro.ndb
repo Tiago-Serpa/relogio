@@ -1,0 +1,145 @@
+NDB006
+The number of symbol table entries is: 5
+The length of the symbol table is: 116
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|relogioponto08-00-00:5|
+G	|relogioponto18-00-00:11|
+a	|relogioponto14-00-00:13|
+{	|relogioponto12-00-00:14|
+
+The number of name info structs is : 129
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdq	!	08-00-00	p
+#	IGdq	!	12-00-00	q
+$	IGdq	!	14-00-00	r
+%	IGdq	!	18-00-00	o
+&	Ky&|	!	4	"	#	$	%	DH1	~
+'	Ky&|	!	4	"	#	$	%	DH2	u
+(	Ky&|	!	4	"	#	$	%	DM1	z
+)	Ky&|	!	4	"	#	$	%	DM2	y
+*	Ky&|	!	4	"	#	$	%	DM3	t
++	Ky&|	!	4	"	#	$	%	DS1	w
+,	Ky&|	!	4	"	#	$	%	DS2	v
+-	Ky&|	!	4	"	#	$	%	DS3	s
+.	Ky&|	!	4	"	#	$	%	H1	"%
+/	Ky&|	!	4	"	#	$	%	H2	"&
+0	Ky&|	!	4	"	#	$	%	H3	|
+1	Ky&|	!	4	"	#	$	%	H4	}
+2	Ky&|	!	4	"	#	$	%	M1	"(
+3	Ky&|	!	4	"	#	$	%	M2	"$
+4	Ky&|	!	4	"	#	$	%	M3	"#
+5	Ky&|	!	4	"	#	$	%	M4	{
+6	Ky&|	!	4	"	#	$	%	S1	"'
+7	Ky&|	!	4	"	#	$	%	S2	""
+8	Ky&|	!	4	"	#	$	%	S3	"!
+9	Ky&|	!	4	"	#	$	%	S4	x
+:	INu}	.	J	08-00-00	#V
+;	IGdW	.	:1	#E
+<	IGdW	.	:10	#L
+=	IGdW	.	:13	#D
+>	IGdW	.	:14	#C
+?	IGdW	.	:17	#@
+@	IGdW	.	:18	#?
+A	IGdW	.	:19	#>
+B	IGdW	.	:20	#P
+C	IGdW	.	:21	#Q
+D	IGdW	.	:22	#R
+E	IGdW	.	:23	#S
+F	IGdW	.	:24	#U
+G	IGdW	.	:25	#T
+H	IGdW	.	:26	#O
+I	IGdW	.	:28	#M
+J	IVOQ	.	:	:30	#V
+K	IGdW	.	:4	#N
+L	IGdW	.	:5	#F
+M	IGdW	.	:6	#=
+N	IGdW	.	:77	#A
+O	IGdW	.	:78	#B
+P	IGdW	.	:79	#J
+Q	IGdW	.	:8	#K
+R	IGdW	.	:80	#G
+S	IGdW	.	:81	#I
+T	IGdW	.	:82	#H
+U	INu}	{	e	12-00-00	%3
+V	IGdW	{	:1	%$
+W	IGdW	{	:10	%)
+X	IGdW	{	:13	%#
+Y	IGdW	{	:14	%"
+Z	IGdW	{	:17	$}
+[	IGdW	{	:18	$|
+\	IGdW	{	:19	${
+]	IGdW	{	:20	%-
+^	IGdW	{	:21	%.
+_	IGdW	{	:22	%/
+`	IGdW	{	:23	%0
+a	IGdW	{	:24	%2
+b	IGdW	{	:25	%1
+c	IGdW	{	:26	%,
+d	IGdW	{	:28	%*
+e	IVOQ	{	U	:30	%3
+f	IGdW	{	:4	%+
+g	IGdW	{	:5	%%
+h	IGdW	{	:6	$y
+i	IGdW	{	:77	$~
+j	IGdW	{	:78	%!
+k	IGdW	{	:8	%(
+l	IGdW	{	:81	%'
+m	IGdW	{	:82	%&
+n	IGdW	{	:83	$z
+o	INu}	a	~	14-00-00	$^
+p	IGdW	a	:10	$T
+q	IGdW	a	:13	$O
+r	IGdW	a	:14	$N
+s	IGdW	a	:17	$K
+t	IGdW	a	:18	$J
+u	IGdW	a	:19	$I
+v	IGdW	a	:20	$X
+w	IGdW	a	:21	$Y
+x	IGdW	a	:22	$Z
+y	IGdW	a	:23	$[
+z	IGdW	a	:24	$]
+{	IGdW	a	:25	$\
+|	IGdW	a	:26	$W
+}	IGdW	a	:28	$U
+~	IVOQ	a	o	:30	$^
+"!	IGdW	a	:4	$V
+""	IGdW	a	:5	$P
+"#	IGdW	a	:6	$F
+"$	IGdW	a	:77	$L
+"%	IGdW	a	:78	$M
+"&	IGdW	a	:8	$S
+"'	IGdW	a	:81	$R
+"(	IGdW	a	:82	$Q
+")	IGdW	a	:83	$H
+"*	IGdW	a	:84	$G
+"+	INu}	G	":	18-00-00	$+
+",	IGdW	G	:10	$!
+"-	IGdW	G	:13	#z
+".	IGdW	G	:14	#y
+"/	IGdW	G	:17	#v
+"0	IGdW	G	:18	#u
+"1	IGdW	G	:19	#t
+"2	IGdW	G	:20	$%
+"3	IGdW	G	:21	$&
+"4	IGdW	G	:22	$'
+"5	IGdW	G	:23	$(
+"6	IGdW	G	:24	$*
+"7	IGdW	G	:25	$)
+"8	IGdW	G	:26	$$
+"9	IGdW	G	:28	$"
+":	IVOQ	G	"+	:30	$+
+";	IGdW	G	:4	$#
+"<	IGdW	G	:5	#{
+"=	IGdW	G	:6	#q
+">	IGdW	G	:77	#w
+"?	IGdW	G	:78	#x
+"@	IGdW	G	:8	#~
+"A	IGdW	G	:81	#}
+"B	IGdW	G	:82	#|
+"C	IGdW	G	:84	#s
+"D	IGdW	G	:85	#r

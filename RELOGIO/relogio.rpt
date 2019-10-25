@@ -1,0 +1,657 @@
+Project Information                                     e:\relogio\relogio.rpt
+
+MAX+plus II Compiler Report File
+Version 10.2 07/10/2002
+Compiled: 05/28/2010 11:13:40
+
+Copyright (C) 1988-2002 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+relogio   EPM7032LC44-6    3        26       0      26      31          81 %
+
+User Pins:                 3        26       0  
+
+
+
+Project Information                                     e:\relogio\relogio.rpt
+
+** FILE HIERARCHY **
+
+
+
+|modulo3:31|
+|modulo6:29|
+|modulo6:30|
+|modulo10:26|
+|modulo10:27|
+|modulo10:28|
+|cemafaro:34|
+|cemafaro:34|relogioponto08-00-00:5|
+|cemafaro:34|relogioponto18-00-00:11|
+|cemafaro:34|relogioponto14-00-00:13|
+|cemafaro:34|relogioponto12-00-00:14|
+
+
+Device-Specific Information:                            e:\relogio\relogio.rpt
+relogio
+
+***** Logic for device 'relogio' compiled without errors.
+
+
+
+
+Device: EPM7032LC44-6
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+
+
+
+Device-Specific Information:                            e:\relogio\relogio.rpt
+relogio
+
+** ERROR SUMMARY **
+
+Info: Chip 'relogio' in device 'EPM7032LC44-6' has less than 20% of pins available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                                               
+                                               
+                 P                             
+              C  R  C                          
+              L  E  L                          
+              O  S  E  V  G  G  G  G  G        
+              C  E  A  C  N  N  N  N  N  H  H  
+              K  T  R  C  D  D  D  D  D  1  2  
+            -----------------------------------_ 
+          /   6  5  4  3  2  1 44 43 42 41 40   | 
+      H3 |  7                                39 | DS3 
+      H4 |  8                                38 | DS2 
+     DH1 |  9                                37 | M1 
+     GND | 10                                36 | M3 
+      S4 | 11                                35 | VCC 
+      S3 | 12         EPM7032LC44-6          34 | M2 
+ ZERADOR | 13                                33 | 08-00-00 
+   ZERAR | 14                                32 | DS1 
+     VCC | 15                                31 | 18-00-00 
+      S2 | 16                                30 | GND 
+     DH2 | 17                                29 | 14-00-00 
+         |_  18 19 20 21 22 23 24 25 26 27 28  _| 
+           ------------------------------------ 
+              S  R  R  R  G  V  M  D  D  D  1  
+              1  E  E  E  N  C  4  M  M  M  2  
+                 S  S  S  D  C     3  2  1  -  
+                 E  E  E                    0  
+                 R  R  R                    0  
+                 V  V  V                    -  
+                 E  E  E                    0  
+                 D  D  D                    0  
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCC = Dedicated power pin, which MUST be connected to VCC.
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:                            e:\relogio\relogio.rpt
+relogio
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16    10/16( 62%)  13/16( 81%)  15/16( 93%)  13/36( 36%) 
+B:    LC17 - LC32    16/16(100%)  16/16(100%)  16/16(100%)  22/36( 61%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            29/32     ( 90%)
+Total logic cells used:                         26/32     ( 81%)
+Total shareable expanders used:                 31/32     ( 96%)
+Total Turbo logic cells used:                   26/32     ( 81%)
+Total shareable expanders not available (n/a):   0/32     (  0%)
+Average fan-in:                                  8.61
+Total fan-in:                                   224
+
+Total input pins required:                       3
+Total output pins required:                     26
+Total bidirectional pins required:               0
+Total logic cells required:                     26
+Total flipflops required:                       20
+Total product terms required:                  118
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:          25
+
+Synthesized logic cells:                         0/  32   (  0%)
+
+
+
+Device-Specific Information:                            e:\relogio\relogio.rpt
+relogio
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   4    (1)  (A)      INPUT               0      0   0    0    0   21    0  CLEAR
+   6    (3)  (A)      INPUT               0      0   0    0    0    1    0  CLOCK
+   5    (2)  (A)      INPUT               0      0   0    0    0   20    0  PRESET
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            e:\relogio\relogio.rpt
+relogio
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   9      6    A         FF      t        5      5   0    2    6   12    0  DH1 (|modulo3:31|:1)
+  17     12    A         FF      t        5      5   0    2    6   12    0  DH2 (|modulo3:31|:2)
+  27     29    B         FF      t        3      3   0    2    4    7    0  DM1 (|modulo6:29|:1)
+  26     30    B         FF      t        3      3   0    2    3    7    0  DM2 (|modulo6:29|:2)
+  25     31    B         FF      t        3      3   0    2    3    8    0  DM3 (|modulo6:29|:3)
+  32     25    B         FF      t        3      3   0    2    4    7    0  DS1 (|modulo6:30|:1)
+  38     20    B         FF      t        3      3   0    2    3    7    0  DS2 (|modulo6:30|:2)
+  39     19    B         FF      t        3      3   0    2    3    8    0  DS3 (|modulo6:30|:3)
+  41     17    B         FF      t        6      6   0    2    7   12    0  H1 (|modulo10:26|:1)
+  40     18    B         FF      t        6      6   0    2    6   12    0  H2 (|modulo10:26|:2)
+   7      4    A         FF      t        6      6   0    2    6   12    0  H3 (|modulo10:26|:3)
+   8      5    A         FF      t        6      6   0    2    6   12    0  H4 (|modulo10:26|:4)
+  37     21    B         FF      t        4      4   0    2    5    8    0  M1 (|modulo10:27|:1)
+  34     23    B         FF      t        4      4   0    2    4    8    0  M2 (|modulo10:27|:2)
+  36     22    B         FF      t        4      4   0    2    4    8    0  M3 (|modulo10:27|:3)
+  24     32    B         FF      t        4      4   0    2    4    9    0  M4 (|modulo10:27|:4)
+  18     13    A         FF      t        4      4   0    3    4    8    0  S1 (|modulo10:28|:1)
+  16     11    A         FF      t        4      4   0    2    4    8    0  S2 (|modulo10:28|:2)
+  12      8    A         FF      t        4      4   0    2    4    8    0  S3 (|modulo10:28|:3)
+  11      7    A         FF      t        4      4   0    2    4    9    0  S4 (|modulo10:28|:4)
+  13      9    A     OUTPUT      t        0      0   0    1    6    0    0  ZERADOR
+  14     10    A     OUTPUT      t        0      0   0    0    6    0    0  ZERAR
+  33     24    B     OUTPUT      t        0      0   0    0   20    0    0  08-00-00
+  28     28    B     OUTPUT      t        0      0   0    0   20    0    0  12-00-00
+  29     27    B     OUTPUT      t        0      0   0    0   20    0    0  14-00-00
+  31     26    B     OUTPUT      t        0      0   0    0   20    0    0  18-00-00
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            e:\relogio\relogio.rpt
+relogio
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+                             Logic cells placed in LAB 'A'
+        +------------------- LC6 DH1
+        | +----------------- LC12 DH2
+        | | +--------------- LC4 H3
+        | | | +------------- LC5 H4
+        | | | | +----------- LC13 S1
+        | | | | | +--------- LC11 S2
+        | | | | | | +------- LC8 S3
+        | | | | | | | +----- LC7 S4
+        | | | | | | | | +--- LC9 ZERADOR
+        | | | | | | | | | +- LC10 ZERAR
+        | | | | | | | | | | 
+        | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | |   that feed LAB 'A'
+LC      | | | | | | | | | | | A B |     Logic cells that feed LAB 'A':
+LC6  -> * * * * - - - - * * | * * | <-- DH1
+LC12 -> * * * * - - - - * * | * * | <-- DH2
+LC4  -> * * * * - - - - * * | * * | <-- H3
+LC5  -> * * * * - - - - * * | * * | <-- H4
+LC13 -> - - - - * * * * - - | * * | <-- S1
+LC11 -> - - - - * * * * - - | * * | <-- S2
+LC8  -> - - - - * * * * - - | * * | <-- S3
+LC7  -> - - - - * * * * - - | * * | <-- S4
+
+Pin
+4    -> * * * * * * * * * - | * * | <-- CLEAR
+6    -> - - - - * - - - - - | * - | <-- CLOCK
+5    -> * * * * * * * * - - | * * | <-- PRESET
+LC17 -> * * * * - - - - * * | * * | <-- H1
+LC18 -> * * * * - - - - * * | * * | <-- H2
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            e:\relogio\relogio.rpt
+relogio
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                         Logic cells placed in LAB 'B'
+        +------------------------------- LC29 DM1
+        | +----------------------------- LC30 DM2
+        | | +--------------------------- LC31 DM3
+        | | | +------------------------- LC25 DS1
+        | | | | +----------------------- LC20 DS2
+        | | | | | +--------------------- LC19 DS3
+        | | | | | | +------------------- LC17 H1
+        | | | | | | | +----------------- LC18 H2
+        | | | | | | | | +--------------- LC21 M1
+        | | | | | | | | | +------------- LC23 M2
+        | | | | | | | | | | +----------- LC22 M3
+        | | | | | | | | | | | +--------- LC32 M4
+        | | | | | | | | | | | | +------- LC24 08-00-00
+        | | | | | | | | | | | | | +----- LC28 12-00-00
+        | | | | | | | | | | | | | | +--- LC27 14-00-00
+        | | | | | | | | | | | | | | | +- LC26 18-00-00
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | | | | | A B |     Logic cells that feed LAB 'B':
+LC29 -> * * * - - - - - - - - - * * * * | - * | <-- DM1
+LC30 -> * * * - - - - - - - - - * * * * | - * | <-- DM2
+LC31 -> * * * - - - * - - - - - * * * * | - * | <-- DM3
+LC25 -> - - - * * * - - - - - - * * * * | - * | <-- DS1
+LC20 -> - - - * * * - - - - - - * * * * | - * | <-- DS2
+LC19 -> - - - * * * - - * - - - * * * * | - * | <-- DS3
+LC17 -> - - - - - - * * - - - - * * * * | * * | <-- H1
+LC18 -> - - - - - - * * - - - - * * * * | * * | <-- H2
+LC21 -> - - - - - - - - * * * * * * * * | - * | <-- M1
+LC23 -> - - - - - - - - * * * * * * * * | - * | <-- M2
+LC22 -> - - - - - - - - * * * * * * * * | - * | <-- M3
+LC32 -> * - - - - - - - * * * * * * * * | - * | <-- M4
+
+Pin
+4    -> * * * * * * * * * * * * - - - - | * * | <-- CLEAR
+5    -> * * * * * * * * * * * * - - - - | * * | <-- PRESET
+LC6  -> - - - - - - * * - - - - * * * * | * * | <-- DH1
+LC12 -> - - - - - - * * - - - - * * * * | * * | <-- DH2
+LC4  -> - - - - - - * * - - - - * * * * | * * | <-- H3
+LC5  -> - - - - - - * * - - - - * * * * | * * | <-- H4
+LC13 -> - - - - - - - - - - - - * * * * | * * | <-- S1
+LC11 -> - - - - - - - - - - - - * * * * | * * | <-- S2
+LC8  -> - - - - - - - - - - - - * * * * | * * | <-- S3
+LC7  -> - - - * - - - - - - - - * * * * | * * | <-- S4
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            e:\relogio\relogio.rpt
+relogio
+
+** EQUATIONS **
+
+CLEAR    : INPUT;
+CLOCK    : INPUT;
+PRESET   : INPUT;
+
+-- Node name is 'DH1' = '|modulo3:31|S1' 
+-- Equation name is 'DH1', type is output 
+ DH1     = TFFE( VCC, !H4, !_EQ001,  PRESET,  VCC);
+  _EQ001 =  _X001 &  _X002 &  _X003 &  _X004 &  _X005;
+  _X001  = EXP( CLEAR & !DH1 &  H2);
+  _X002  = EXP( CLEAR & !DH1 &  H4);
+  _X003  = EXP( CLEAR & !DH1 &  H1);
+  _X004  = EXP( CLEAR & !DH1 & !H3);
+  _X005  = EXP( CLEAR & !DH2);
+
+-- Node name is 'DH2' = '|modulo3:31|S2' 
+-- Equation name is 'DH2', type is output 
+ DH2     = TFFE( VCC, !DH1, !_EQ002,  PRESET,  VCC);
+  _EQ002 =  _X001 &  _X002 &  _X003 &  _X004 &  _X005;
+  _X001  = EXP( CLEAR & !DH1 &  H2);
+  _X002  = EXP( CLEAR & !DH1 &  H4);
+  _X003  = EXP( CLEAR & !DH1 &  H1);
+  _X004  = EXP( CLEAR & !DH1 & !H3);
+  _X005  = EXP( CLEAR & !DH2);
+
+-- Node name is 'DM1' = '|modulo6:29|S1' 
+-- Equation name is 'DM1', type is output 
+ DM1     = TFFE( VCC, !M4, !_EQ003,  PRESET,  VCC);
+  _EQ003 =  _X006 &  _X007 &  _X008;
+  _X006  = EXP( CLEAR & !DM3);
+  _X007  = EXP( CLEAR &  DM1);
+  _X008  = EXP( CLEAR & !DM2);
+
+-- Node name is 'DM2' = '|modulo6:29|S2' 
+-- Equation name is 'DM2', type is output 
+ DM2     = TFFE( VCC, !DM1, !_EQ004,  PRESET,  VCC);
+  _EQ004 =  _X006 &  _X007 &  _X008;
+  _X006  = EXP( CLEAR & !DM3);
+  _X007  = EXP( CLEAR &  DM1);
+  _X008  = EXP( CLEAR & !DM2);
+
+-- Node name is 'DM3' = '|modulo6:29|s3' 
+-- Equation name is 'DM3', type is output 
+ DM3     = TFFE( VCC, !DM2, !_EQ005,  PRESET,  VCC);
+  _EQ005 =  _X006 &  _X007 &  _X008;
+  _X006  = EXP( CLEAR & !DM3);
+  _X007  = EXP( CLEAR &  DM1);
+  _X008  = EXP( CLEAR & !DM2);
+
+-- Node name is 'DS1' = '|modulo6:30|S1' 
+-- Equation name is 'DS1', type is output 
+ DS1     = TFFE( VCC, !S4, !_EQ006,  PRESET,  VCC);
+  _EQ006 =  _X009 &  _X010 &  _X011;
+  _X009  = EXP( CLEAR & !DS3);
+  _X010  = EXP( CLEAR &  DS1);
+  _X011  = EXP( CLEAR & !DS2);
+
+-- Node name is 'DS2' = '|modulo6:30|S2' 
+-- Equation name is 'DS2', type is output 
+ DS2     = TFFE( VCC, !DS1, !_EQ007,  PRESET,  VCC);
+  _EQ007 =  _X009 &  _X010 &  _X011;
+  _X009  = EXP( CLEAR & !DS3);
+  _X010  = EXP( CLEAR &  DS1);
+  _X011  = EXP( CLEAR & !DS2);
+
+-- Node name is 'DS3' = '|modulo6:30|s3' 
+-- Equation name is 'DS3', type is output 
+ DS3     = TFFE( VCC, !DS2, !_EQ008,  PRESET,  VCC);
+  _EQ008 =  _X009 &  _X010 &  _X011;
+  _X009  = EXP( CLEAR & !DS3);
+  _X010  = EXP( CLEAR &  DS1);
+  _X011  = EXP( CLEAR & !DS2);
+
+-- Node name is 'H1' = '|modulo10:26|S1' 
+-- Equation name is 'H1', type is output 
+ H1      = TFFE( VCC, !DM3, !_EQ009,  PRESET,  VCC);
+  _EQ009 =  _X012 &  _X013 &  _X014 &  _X015 &  _X016 &  _X017;
+  _X012  = EXP( CLEAR &  DH1 &  H3);
+  _X013  = EXP( CLEAR &  H2 &  H3);
+  _X014  = EXP( CLEAR & !DH2 &  H3);
+  _X015  = EXP( CLEAR & !H2 &  H4);
+  _X016  = EXP( CLEAR & !H3 & !H4);
+  _X017  = EXP( CLEAR &  H1);
+
+-- Node name is 'H2' = '|modulo10:26|S2' 
+-- Equation name is 'H2', type is output 
+ H2      = TFFE( VCC, !H1, !_EQ010,  PRESET,  VCC);
+  _EQ010 =  _X012 &  _X013 &  _X014 &  _X015 &  _X016 &  _X017;
+  _X012  = EXP( CLEAR &  DH1 &  H3);
+  _X013  = EXP( CLEAR &  H2 &  H3);
+  _X014  = EXP( CLEAR & !DH2 &  H3);
+  _X015  = EXP( CLEAR & !H2 &  H4);
+  _X016  = EXP( CLEAR & !H3 & !H4);
+  _X017  = EXP( CLEAR &  H1);
+
+-- Node name is 'H3' = '|modulo10:26|S3' 
+-- Equation name is 'H3', type is output 
+ H3      = TFFE( VCC, !H2, !_EQ011,  PRESET,  VCC);
+  _EQ011 =  _X012 &  _X013 &  _X014 &  _X015 &  _X016 &  _X017;
+  _X012  = EXP( CLEAR &  DH1 &  H3);
+  _X013  = EXP( CLEAR &  H2 &  H3);
+  _X014  = EXP( CLEAR & !DH2 &  H3);
+  _X015  = EXP( CLEAR & !H2 &  H4);
+  _X016  = EXP( CLEAR & !H3 & !H4);
+  _X017  = EXP( CLEAR &  H1);
+
+-- Node name is 'H4' = '|modulo10:26|S4' 
+-- Equation name is 'H4', type is output 
+ H4      = TFFE( VCC, !H3, !_EQ012,  PRESET,  VCC);
+  _EQ012 =  _X012 &  _X013 &  _X014 &  _X015 &  _X016 &  _X017;
+  _X012  = EXP( CLEAR &  DH1 &  H3);
+  _X013  = EXP( CLEAR &  H2 &  H3);
+  _X014  = EXP( CLEAR & !DH2 &  H3);
+  _X015  = EXP( CLEAR & !H2 &  H4);
+  _X016  = EXP( CLEAR & !H3 & !H4);
+  _X017  = EXP( CLEAR &  H1);
+
+-- Node name is 'M1' = '|modulo10:27|S1' 
+-- Equation name is 'M1', type is output 
+ M1      = TFFE( VCC, !DS3, !_EQ013,  PRESET,  VCC);
+  _EQ013 =  _X018 &  _X019 &  _X020 &  _X021;
+  _X018  = EXP( CLEAR &  M1);
+  _X019  = EXP( CLEAR &  M3);
+  _X020  = EXP( CLEAR & !M4);
+  _X021  = EXP( CLEAR & !M2);
+
+-- Node name is 'M2' = '|modulo10:27|S2' 
+-- Equation name is 'M2', type is output 
+ M2      = TFFE( VCC, !M1, !_EQ014,  PRESET,  VCC);
+  _EQ014 =  _X018 &  _X019 &  _X020 &  _X021;
+  _X018  = EXP( CLEAR &  M1);
+  _X019  = EXP( CLEAR &  M3);
+  _X020  = EXP( CLEAR & !M4);
+  _X021  = EXP( CLEAR & !M2);
+
+-- Node name is 'M3' = '|modulo10:27|S3' 
+-- Equation name is 'M3', type is output 
+ M3      = TFFE( VCC, !M2, !_EQ015,  PRESET,  VCC);
+  _EQ015 =  _X018 &  _X019 &  _X020 &  _X021;
+  _X018  = EXP( CLEAR &  M1);
+  _X019  = EXP( CLEAR &  M3);
+  _X020  = EXP( CLEAR & !M4);
+  _X021  = EXP( CLEAR & !M2);
+
+-- Node name is 'M4' = '|modulo10:27|S4' 
+-- Equation name is 'M4', type is output 
+ M4      = TFFE( VCC, !M3, !_EQ016,  PRESET,  VCC);
+  _EQ016 =  _X018 &  _X019 &  _X020 &  _X021;
+  _X018  = EXP( CLEAR &  M1);
+  _X019  = EXP( CLEAR &  M3);
+  _X020  = EXP( CLEAR & !M4);
+  _X021  = EXP( CLEAR & !M2);
+
+-- Node name is 'S1' = '|modulo10:28|S1' 
+-- Equation name is 'S1', type is output 
+ S1      = TFFE( VCC, !CLOCK, !_EQ017,  PRESET,  VCC);
+  _EQ017 =  _X022 &  _X023 &  _X024 &  _X025;
+  _X022  = EXP( CLEAR &  S1);
+  _X023  = EXP( CLEAR &  S3);
+  _X024  = EXP( CLEAR & !S4);
+  _X025  = EXP( CLEAR & !S2);
+
+-- Node name is 'S2' = '|modulo10:28|S2' 
+-- Equation name is 'S2', type is output 
+ S2      = TFFE( VCC, !S1, !_EQ018,  PRESET,  VCC);
+  _EQ018 =  _X022 &  _X023 &  _X024 &  _X025;
+  _X022  = EXP( CLEAR &  S1);
+  _X023  = EXP( CLEAR &  S3);
+  _X024  = EXP( CLEAR & !S4);
+  _X025  = EXP( CLEAR & !S2);
+
+-- Node name is 'S3' = '|modulo10:28|S3' 
+-- Equation name is 'S3', type is output 
+ S3      = TFFE( VCC, !S2, !_EQ019,  PRESET,  VCC);
+  _EQ019 =  _X022 &  _X023 &  _X024 &  _X025;
+  _X022  = EXP( CLEAR &  S1);
+  _X023  = EXP( CLEAR &  S3);
+  _X024  = EXP( CLEAR & !S4);
+  _X025  = EXP( CLEAR & !S2);
+
+-- Node name is 'S4' = '|modulo10:28|S4' 
+-- Equation name is 'S4', type is output 
+ S4      = TFFE( VCC, !S3, !_EQ020,  PRESET,  VCC);
+  _EQ020 =  _X022 &  _X023 &  _X024 &  _X025;
+  _X022  = EXP( CLEAR &  S1);
+  _X023  = EXP( CLEAR &  S3);
+  _X024  = EXP( CLEAR & !S4);
+  _X025  = EXP( CLEAR & !S2);
+
+-- Node name is 'ZERADOR' 
+-- Equation name is 'ZERADOR', location is LC009, type is output.
+ ZERADOR = LCELL( _EQ021 $  CLEAR);
+  _EQ021 =  CLEAR & !DH1 &  DH2 & !H1 & !H2 &  H3 & !H4;
+
+-- Node name is 'ZERAR' 
+-- Equation name is 'ZERAR', location is LC010, type is output.
+ ZERAR   = LCELL( _EQ022 $  VCC);
+  _EQ022 = !DH1 &  DH2 & !H1 & !H2 &  H3 & !H4;
+
+-- Node name is '08-00-00' 
+-- Equation name is '08-00-00', location is LC024, type is output.
+ 08-00-00 = LCELL( _EQ023 $  GND);
+  _EQ023 = !DH1 & !DH2 & !DM1 & !DM2 & !DM3 & !DS1 & !DS2 & !DS3 & !H1 & !H2 & 
+             !H3 &  H4 & !M1 & !M2 & !M3 & !M4 & !S1 & !S2 & !S3 & !S4;
+
+-- Node name is '12-00-00' 
+-- Equation name is '12-00-00', location is LC028, type is output.
+ 12-00-00 = LCELL( _EQ024 $  GND);
+  _EQ024 =  DH1 & !DH2 & !DM1 & !DM2 & !DM3 & !DS1 & !DS2 & !DS3 & !H1 &  H2 & 
+             !H3 & !H4 & !M1 & !M2 & !M3 & !M4 & !S1 & !S2 & !S3 & !S4;
+
+-- Node name is '14-00-00' 
+-- Equation name is '14-00-00', location is LC027, type is output.
+ 14-00-00 = LCELL( _EQ025 $  GND);
+  _EQ025 =  DH1 & !DH2 & !DM1 & !DM2 & !DM3 & !DS1 & !DS2 & !DS3 & !H1 & !H2 & 
+              H3 & !H4 & !M1 & !M2 & !M3 & !M4 & !S1 & !S2 & !S3 & !S4;
+
+-- Node name is '18-00-00' 
+-- Equation name is '18-00-00', location is LC026, type is output.
+ 18-00-00 = LCELL( _EQ026 $  GND);
+  _EQ026 =  DH1 & !DH2 & !DM1 & !DM2 & !DM3 & !DS1 & !DS2 & !DS3 & !H1 & !H2 & 
+             !H3 &  H4 & !M1 & !M2 & !M3 & !M4 & !S1 & !S2 & !S3 & !S4;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--    _X012 occurs in LABs A, B
+--    _X013 occurs in LABs A, B
+--    _X014 occurs in LABs A, B
+--    _X015 occurs in LABs A, B
+--    _X016 occurs in LABs A, B
+--    _X017 occurs in LABs A, B
+
+
+
+
+Project Information                                     e:\relogio\relogio.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = on
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:01
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:01
+   Fitter                                 00:00:01
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:03
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 2,804K
